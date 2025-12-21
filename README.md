@@ -39,3 +39,10 @@ Snapclient (BakersHub) Copyright (C) 2025 BakersHub
 
 This program comes with ABSOLUTELY NO WARRANTY; for details see LICENSE.  
 This program is free software: you can redistribute it and/or modify it under GPL-3.0.
+
+SPECIAL MENTIONS & THANKS to
+@Aximut
+Source Code includes the usability of BLUETOOTH thanks to the work of 
+@Aximut 
+
+BLUETOOTH is mentioned to have some improvements to be made, I'm sure to advise end users of potential issues highlighted by code creator, although edits further edits have been made by @BakersHub (myself) to eliminate such issues, as of time of writing, no issues have arisen since my edits have been made. but with 1 person debugging it's not ruled out of any issues been eliminated. please use and report any issues with detail for increased chance of fixes been made ASAP.
