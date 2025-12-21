@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core brand / Material-style palette (light, flat, iOS-like) -->
+    <color name="colorPrimary">#007AFF</color>
+    <color name="colorPrimaryDark">#005BBB</color>
+    <color name="colorAccent">#007AFF</color>
+
+    <!-- Neutrals and surfaces -->
+        <color name="background_main">#E6F5F5F7</color>
+        <color name="card_white">#E6F5F5F7</color>
+    <color name="card_shadow">#1A000000</color>
+    <color name="divider_light">#C8C8CC</color>
+
+    <!-- Text and icon tints -->
+    <color name="text_primary">#111111</color>
+    <color name="text_secondary">#6C6C70</color>
+    <color name="second_grey">#999999</color>
+    <color name="mute_red">#FF3B30</color>
+</resources>
