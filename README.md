@@ -1,4 +1,4 @@
-# Snapclient-BT-LED-OLED
+# BETA Snapclient-BT-LED-OLED
 Snapclient & Bluetooth receiver with inbuilt LED ARGB sound reactive controller
 
 Screenshots are coming
