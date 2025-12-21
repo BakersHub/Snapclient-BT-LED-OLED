@@ -3,6 +3,21 @@ Snapclient & Bluetooth receiver with inbuilt LED ARGB sound reactive controller
 
 Screenshots are coming
 
+## Flashing the ESP32 Firmware
+
+For most users, the easiest way to flash is to use the prebuilt merged image `SnapClient-BT-LED-OLEDv1.x.bin` with ESPHome Web Flasher or ESPHome Flasher.
+
+**Quick path:**
+- Board: ESP32‑WROVER (or compatible devkit).
+- Firmware: `SnapClient-BT-LED-OLEDv1.x.bin` from this repository.
+- Tool: ESPHome Web Flasher / ESPHome Flasher.
+
+Then follow the step‑by‑step guide in [FLASHING_QUICKSTART.md](FLASHING_QUICKSTART.md) for:
+- Detailed flashing steps.
+- First‑boot Wi‑Fi AP behavior.
+- Web UI / captive portal access at `ESP32-SNAPCLIENT-******` / `http://192.168.4.1`.
+- Minimum Wi‑Fi and Snapserver settings to get audio playing.
+
 ## Source Code Layout
 
 - ESP32 firmware project (upstream Snapclient, modified by BakersHub) lives in the submodule:
