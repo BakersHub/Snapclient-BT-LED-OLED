@@ -41,6 +41,7 @@ This program comes with ABSOLUTELY NO WARRANTY; for details see LICENSE.
 This program is free software: you can redistribute it and/or modify it under GPL-3.0.
 
 SPECIAL MENTIONS & THANKS to
+@Luar123
 @Aximut
 Source Code includes the usability of BLUETOOTH thanks to the work of 
 @Aximut 
