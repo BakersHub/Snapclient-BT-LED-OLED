@@ -1,0 +1,3 @@
+[submodule "ESP32WROVER/snap-bt-led-oled"]
+	path = ESP32WROVER/snap-bt-led-oled
+	url = https://github.com/BakersHub/snapclient.git
