@@ -1,8 +1,3 @@
-If you rebuilt/changed the v1.1 binary and ever need to update it again, just overwrite that same file, then run: git status → git commit -am "Update v1.1 firmware" → git push.
-
-
-
-
 # Quick Start: Flashing and Installing Snapclient BT + LED + OLED
 
 These are the simplest steps to get the prebuilt firmware running on an ESP32‑WROVER and connected to your Snapserver.
