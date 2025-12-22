@@ -77,10 +77,10 @@ Volume buttons and the LED on/off button are software‑configurable, with these
 
 | GPIO | Direction | Function (default) | Connects to |
 |-----:|-----------|--------------------|-------------|
-| 27   | IN        | Volume Up button (`VOLUME_UP_GPIO`) | One side of a momentary button; the other side to GND (with internal pull‑up enabled). |
-| 14   | IN        | Volume Down button (`VOLUME_DOWN_GPIO`) | Same wiring style as Volume Up: button between pin and GND. |
-| 18   | IN        | LED effect toggle / LED on‑off button (`LED_EFFECT_BUTTON_GPIO`) | Button between pin and GND. Toggles LED controller effect or turns LEDs off while leaving audio playing. |
-| 19   | IN        | Wi‑Fi AP / recovery button (`AP_MODE_BUTTON_GPIO`) | Button between pin and GND (active high in code via pull‑up). Long‑press (~3 s) to force AP recovery / Wi‑Fi reset when normal Wi‑Fi is unreachable. Even without pressing this button, the firmware will automatically start its own AP after ~5 failed Wi‑Fi connection attempts (roughly 5–10 seconds) so you can fix credentials. |
+| 27   | IN        | Volume Up button (`VOLUME_UP_GPIO`) | One side of a momentary button; the other side to **3.3 V** (with internal pull‑down enabled). |
+| 14   | IN        | Volume Down button (`VOLUME_DOWN_GPIO`) | Same wiring style as Volume Up: button between pin and **3.3 V**. |
+| 18   | IN        | LED effect toggle / LED on‑off button (`LED_EFFECT_BUTTON_GPIO`) | Button between pin and **3.3 V**. Toggles LED controller effect or turns LEDs off while leaving audio playing. |
+| 19   | IN        | Wi‑Fi AP / recovery button (`AP_MODE_BUTTON_GPIO`) | Button between pin and **3.3 V** (internal pull‑down, active‑HIGH when pressed). Long‑press (~3 s) to force AP recovery / Wi‑Fi reset when normal Wi‑Fi is unreachable. Even without pressing this button, the firmware will automatically start its own AP after ~5 failed Wi‑Fi connection attempts (roughly 5–10 seconds) so you can fix credentials. |
 
 Notes:
 
