@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="Images/Header.png" alt="Snapcast Header" width="80%">
+</p>
+
 # BETA Snapclient-BT-LED-OLED
 Snapclient & Bluetooth receiver with inbuilt LED ARGB sound reactive controller
 
