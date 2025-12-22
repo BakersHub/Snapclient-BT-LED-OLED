@@ -3,22 +3,22 @@ Snapclient & Bluetooth receiver with inbuilt LED ARGB sound reactive controller
 
 ## Screenshots
 
-1. ![Screenshot 1](Install%20Guide%20Screenshots/1.PNG)
-2. ![Screenshot 2](Install%20Guide%20Screenshots/2.PNG)
-3. ![Screenshot 3](Install%20Guide%20Screenshots/3.png)
-4. ![Screenshot 4](Install%20Guide%20Screenshots/4.PNG)
-5. ![Screenshot 5](Install%20Guide%20Screenshots/5.PNG)
-6. ![Screenshot 6](Install%20Guide%20Screenshots/6.PNG)
-7. ![Screenshot 7](Install%20Guide%20Screenshots/7.PNG)
-8. ![Screenshot 8](Install%20Guide%20Screenshots/8.png)
-9. ![Screenshot 9](Install%20Guide%20Screenshots/9.png)
-10. ![Screenshot 10](Install%20Guide%20Screenshots/10.png)
-11. ![Screenshot 11](Install%20Guide%20Screenshots/11.png)
-12. ![Screenshot 12](Install%20Guide%20Screenshots/12.png)
-13. ![Screenshot 13](Install%20Guide%20Screenshots/13.png)
-14. ![Screenshot 14](Install%20Guide%20Screenshots/14.png)
-15. ![Screenshot 15](Install%20Guide%20Screenshots/15.png)
-16. ![Screenshot 16](Install%20Guide%20Screenshots/16.png)
+1. <img src="Install%20Guide%20Screenshots/1.PNG" alt="Screenshot 1" width="50%">
+2. <img src="Install%20Guide%20Screenshots/2.PNG" alt="Screenshot 2" width="50%">
+3. <img src="Install%20Guide%20Screenshots/3.png" alt="Screenshot 3" width="50%">
+4. <img src="Install%20Guide%20Screenshots/4.PNG" alt="Screenshot 4" width="50%">
+5. <img src="Install%20Guide%20Screenshots/5.PNG" alt="Screenshot 5" width="50%">
+6. <img src="Install%20Guide%20Screenshots/6.PNG" alt="Screenshot 6" width="50%">
+7. <img src="Install%20Guide%20Screenshots/7.PNG" alt="Screenshot 7" width="50%">
+8. <img src="Install%20Guide%20Screenshots/8.png" alt="Screenshot 8" width="50%">
+9. <img src="Install%20Guide%20Screenshots/9.png" alt="Screenshot 9" width="50%">
+10. <img src="Install%20Guide%20Screenshots/10.png" alt="Screenshot 10" width="50%">
+11. <img src="Install%20Guide%20Screenshots/11.png" alt="Screenshot 11" width="50%">
+12. <img src="Install%20Guide%20Screenshots/12.png" alt="Screenshot 12" width="50%">
+13. <img src="Install%20Guide%20Screenshots/13.png" alt="Screenshot 13" width="50%">
+14. <img src="Install%20Guide%20Screenshots/14.png" alt="Screenshot 14" width="50%">
+15. <img src="Install%20Guide%20Screenshots/15.png" alt="Screenshot 15" width="50%">
+16. <img src="Install%20Guide%20Screenshots/16.png" alt="Screenshot 16" width="50%">
 
 ## Flashing the ESP32 Firmware
 
