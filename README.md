@@ -1,7 +1,24 @@
 # BETA Snapclient-BT-LED-OLED
 Snapclient & Bluetooth receiver with inbuilt LED ARGB sound reactive controller
 
-Screenshots are coming
+## Screenshots
+
+1. ![Screenshot 1](Install%20Guide%20Screenshots/1.PNG)
+2. ![Screenshot 2](Install%20Guide%20Screenshots/2.PNG)
+3. ![Screenshot 3](Install%20Guide%20Screenshots/3.png)
+4. ![Screenshot 4](Install%20Guide%20Screenshots/4.PNG)
+5. ![Screenshot 5](Install%20Guide%20Screenshots/5.PNG)
+6. ![Screenshot 6](Install%20Guide%20Screenshots/6.PNG)
+7. ![Screenshot 7](Install%20Guide%20Screenshots/7.PNG)
+8. ![Screenshot 8](Install%20Guide%20Screenshots/8.png)
+9. ![Screenshot 9](Install%20Guide%20Screenshots/9.png)
+10. ![Screenshot 10](Install%20Guide%20Screenshots/10.png)
+11. ![Screenshot 11](Install%20Guide%20Screenshots/11.png)
+12. ![Screenshot 12](Install%20Guide%20Screenshots/12.png)
+13. ![Screenshot 13](Install%20Guide%20Screenshots/13.png)
+14. ![Screenshot 14](Install%20Guide%20Screenshots/14.png)
+15. ![Screenshot 15](Install%20Guide%20Screenshots/15.png)
+16. ![Screenshot 16](Install%20Guide%20Screenshots/16.png)
 
 ## Flashing the ESP32 Firmware
 
