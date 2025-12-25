@@ -5,6 +5,8 @@
 # BETA Snapclient-BT-LED-OLED
 Snapclient & Bluetooth receiver with inbuilt LED ARGB sound reactive controller to suit ESP32 wrover dev kit
 
+Complete wiring instructions coming soon
+
 ## Screenshots
 
 1. <img src="Install%20Guide%20Screenshots/1.PNG" alt="Screenshot 1" width="50%">
