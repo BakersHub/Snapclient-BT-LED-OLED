@@ -6,8 +6,8 @@
 Snapclient & Bluetooth receiver with inbuilt LED ARGB sound reactive controller to suit ESP32 wrover dev kit
 
 Complete wiring instructions coming soon
- <img src="Install%20Guide%20Screenshots/FlowDiagram.png" alt="Flow Diagram" width="50%">
- 
+<img src="Install%20Guide%20Screenshots/FlowDiagram.png" alt="Flow Diagram" width="50%">
+
 ## Screenshots
 
 1. <img src="Install%20Guide%20Screenshots/1.PNG" alt="Screenshot 1" width="50%">
