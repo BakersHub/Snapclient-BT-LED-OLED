@@ -8,7 +8,7 @@ Snapclient & Bluetooth receiver with inbuilt LED ARGB sound reactive controller 
 Complete wiring instructions coming soon
 
 ## Screenshots
-
+0. <img src="Install%20Guide%20Screenshots/FlowDiagram.png" alt="Flow Diagram" width="50%">
 1. <img src="Install%20Guide%20Screenshots/1.PNG" alt="Screenshot 1" width="50%">
 2. <img src="Install%20Guide%20Screenshots/2.PNG" alt="Screenshot 2" width="50%">
 3. <img src="Install%20Guide%20Screenshots/3.png" alt="Screenshot 3" width="50%">
@@ -25,6 +25,7 @@ Complete wiring instructions coming soon
 14. <img src="Install%20Guide%20Screenshots/14.png" alt="Screenshot 14" width="50%">
 15. <img src="Install%20Guide%20Screenshots/15.png" alt="Screenshot 15" width="50%">
 16. <img src="Install%20Guide%20Screenshots/16.png" alt="Screenshot 16" width="50%">
+
 
 ## Flashing the ESP32 Firmware
 
