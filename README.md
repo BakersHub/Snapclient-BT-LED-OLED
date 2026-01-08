@@ -1,76 +1,151 @@
 <p align="center">
-	<img src="Images/Header.png" alt="Snapcast Header" width="80%">
+  <img src="Images/Header.png" alt="Snapcast Header" width="80%">
 </p>
 
-# BETA Snapclient-BT-LED-OLED
-Snapclient & Bluetooth receiver with inbuilt LED ARGB sound reactive controller to suit ESP32 wrover dev kit
+# 🧪 Snapclient-BT-LED-OLED (BETA)
 
-Complete wiring instructions coming soon
+An **ESP32-based Snapcast client** with **Bluetooth audio input**, a **built-in sound-reactive ARGB LED controller**, and an **OLED status display** — designed for **multi-room, perfectly synced audio** in Home Assistant setups.
 
+Built to be **easy to flash, easy to configure, and flexible to extend**.
 
-<img src="Install%20Guide%20Screenshots/FlowDiagram.png" alt="Flow Diagram" width="50%">
+> ⚠️ This project is currently **BETA**. Core functionality is stable, but features and documentation are still evolving.
 
-## Screenshots
+---
 
-1. <img src="Install%20Guide%20Screenshots/1.PNG" alt="Screenshot 1" width="50%">
-2. <img src="Install%20Guide%20Screenshots/2.PNG" alt="Screenshot 2" width="50%">
-3. <img src="Install%20Guide%20Screenshots/3.png" alt="Screenshot 3" width="50%">
-4. <img src="Install%20Guide%20Screenshots/4.PNG" alt="Screenshot 4" width="50%">
-5. <img src="Install%20Guide%20Screenshots/5.PNG" alt="Screenshot 5" width="50%">
-6. <img src="Install%20Guide%20Screenshots/6.PNG" alt="Screenshot 6" width="50%">
-7. <img src="Install%20Guide%20Screenshots/7.PNG" alt="Screenshot 7" width="50%">
-8. <img src="Install%20Guide%20Screenshots/8.png" alt="Screenshot 8" width="50%">
-9. <img src="Install%20Guide%20Screenshots/9.png" alt="Screenshot 9" width="50%">
-10. <img src="Install%20Guide%20Screenshots/10.png" alt="Screenshot 10" width="50%">
-11. <img src="Install%20Guide%20Screenshots/11.png" alt="Screenshot 11" width="50%">
-12. <img src="Install%20Guide%20Screenshots/12.png" alt="Screenshot 12" width="50%">
-13. <img src="Install%20Guide%20Screenshots/13.png" alt="Screenshot 13" width="50%">
-14. <img src="Install%20Guide%20Screenshots/14.png" alt="Screenshot 14" width="50%">
-15. <img src="Install%20Guide%20Screenshots/15.png" alt="Screenshot 15" width="50%">
-16. <img src="Install%20Guide%20Screenshots/16.png" alt="Screenshot 16" width="50%">
+## ✨ Key Features
 
+- 🎶 **Snapcast network audio playback**
+  - Tight sync across multiple speakers
+  - Works great with Home Assistant / Music Assistant
+- 📡 **Bluetooth A2DP receiver**
+  - Stream directly from phone or PC
+  - AVRCP transport & volume control
+- 🌈 **Sound-reactive ARGB LED controller**
+  - WS2812 / SK6812 compatible
+  - **Only 3 wires required**
+  - Dozens of effects that react and bounce to music
+- 🖥️ **OLED display (SH1106 / SSD1306)**
+  - Clock display
+  - Playback / connection status
+  - Bluetooth source name (in BT mode)
+- 🌐 **Built-in Web UI**
+  - Wi-Fi, Snapserver, audio, LED, and display config
+  - No YAML, Arduino, or ESP-IDF required for normal use
+- 🔁 **Automatic Wi-Fi AP recovery**
+  - If Wi-Fi fails, the device exposes its own setup hotspot
 
-## Flashing the ESP32 Firmware
+---
 
-For most users, the easiest way to flash is to use the prebuilt merged image `SnapClient-BT-LED-OLEDv1.x.bin` with ESPHome Web Flasher or ESPHome Flasher.
+## 🧩 Supported Hardware
 
-**Quick path:**
-- Board: ESP32‑WROVER (or compatible devkit).
-- Firmware: `SnapClient-BT-LED-OLEDv1.x.bin` from this repository.
-- Tool: ESPHome Web Flasher / ESPHome Flasher.
+### ESP32 boards
+- ESP32-WROVER (4MB)
+- ESP32-S3 Dev (16MB)
+- ESP32-S3 Zero (2MB)
 
-Then follow the step‑by‑step guide in [FLASHING_QUICKSTART.md](FLASHING_QUICKSTART.md) for:
-- Detailed flashing steps.
-- First‑boot Wi‑Fi AP behavior.
-- Web UI / captive portal access at `ESP32-SNAPCLIENT-******` / `http://192.168.4.1`.
-- Minimum Wi‑Fi and Snapserver settings to get audio playing.
+### Audio DAC (required)
+- **PCM5102A**
+- **MAX98357A**
 
-## Source Code Layout
+### Display (optional)
+- SH1106 or SSD1306 128×64 I²C OLED
 
-- ESP32 firmware project (upstream Snapclient, modified by BakersHub) lives in the submodule:
-	- `ESP32WROVER/snap-bt-led-oled` → points to https://github.com/BakersHub/snapclient (branch `Snapclient-BT-LED-OLED`).
-- Prebuilt ESP32 firmware binary for this project: `SnapClient-BT-LED-OLEDv1.1.bin` in this repository.
+### LEDs (optional)
+- WS2812 / SK6812 addressable RGB LEDs
 
-All GPL-3.0–licensed source used to build the distributed firmware is available either directly in this repository or in the linked submodule fork above.
+📌 **GPIO mappings are documented** — see [`GPIO_MAP.md`](GPIO_MAP.md)
 
-## License
+---
 
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
+## 🧭 System Overview
 
-This repository contains modified versions of Snapcast components (https://github.com/CarlosDerSeher/snapclient).  
-Original authors’ work is preserved, and modifications were made by BakersHub.
+<img src="Install%20Guide%20Screenshots/FlowDiagram.png" alt="System Flow Diagram" width="60%">
 
-Source code for all distributed binaries (Android APK and ESP32 firmware) is included in this repository and its submodule.
+This diagram shows how audio flows from Home Assistant / Snapcast into the ESP32, then out to the DAC, speakers, OLED, and sound-reactive LEDs.
 
-Snapclient (BakersHub) Copyright (C) 2025 BakersHub
+> 🔧 **Complete wiring diagram is coming soon** and will be added to this repository.
 
-This program comes with ABSOLUTELY NO WARRANTY; for details see LICENSE.  
-This program is free software: you can redistribute it and/or modify it under GPL-3.0.
+---
 
-SPECIAL MENTIONS & THANKS to
-@Luar123
-@Aximut
-Source Code includes the usability of BLUETOOTH thanks to the work of 
-@Aximut 
+## 📸 Screenshots
 
-BLUETOOTH is mentioned to have some improvements to be made, I'm sure to advise end users of potential issues highlighted by code creator, although edits further edits have been made by @BakersHub (myself) to eliminate such issues, as of time of writing, no issues have arisen since my edits have been made. but with 1 person debugging it's not ruled out of any issues been eliminated. please use and report any issues with detail for increased chance of fixes been made ASAP.
+<details>
+<summary>Click to expand</summary>
+
+<img src="Install%20Guide%20Screenshots/1.PNG" width="50%">
+<img src="Install%20Guide%20Screenshots/2.PNG" width="50%">
+<img src="Install%20Guide%20Screenshots/3.png" width="50%">
+<img src="Install%20Guide%20Screenshots/4.PNG" width="50%">
+<img src="Install%20Guide%20Screenshots/5.PNG" width="50%">
+<img src="Install%20Guide%20Screenshots/6.PNG" width="50%">
+<img src="Install%20Guide%20Screenshots/7.PNG" width="50%">
+<img src="Install%20Guide%20Screenshots/8.png" width="50%">
+<img src="Install%20Guide%20Screenshots/9.png" width="50%">
+<img src="Install%20Guide%20Screenshots/10.png" width="50%">
+<img src="Install%20Guide%20Screenshots/11.png" width="50%">
+<img src="Install%20Guide%20Screenshots/12.png" width="50%">
+<img src="Install%20Guide%20Screenshots/13.png" width="50%">
+<img src="Install%20Guide%20Screenshots/14.png" width="50%">
+<img src="Install%20Guide%20Screenshots/15.png" width="50%">
+<img src="Install%20Guide%20Screenshots/16.png" width="50%">
+
+</details>
+
+---
+
+## ⚡ Flashing & First-Time Setup
+
+For most users, the easiest path is flashing the **prebuilt merged firmware image**:
+
+- Firmware: `SnapClient-BT-LED-OLEDv1.x.bin`
+- Tool: **ESPHome Web Flasher** or **ESPHome Flasher**
+- Board: ESP32-WROVER (or compatible)
+
+👉 Follow the step-by-step guide here:  
+**[`FLASHING_QUICKSTART.md`](FLASHING_QUICKSTART.md)**
+
+It covers:
+- Flashing the firmware
+- First-boot Wi-Fi AP behavior
+- Captive portal / web UI access (`http://192.168.4.1`)
+- Minimum settings required to get audio playing
+
+---
+
+## 📁 Source Code Layout
+
+- ESP32 firmware lives in the submodule:
+  - `ESP32WROVER/snap-bt-led-oled`
+  - Points to: https://github.com/BakersHub/snapclient  
+    (branch: `Snapclient-BT-LED-OLED`)
+- Prebuilt firmware binary:
+  - `SnapClient-BT-LED-OLEDv1.x.bin`
+
+All GPL-3.0–licensed source code used to build distributed binaries is available in this repository or its linked submodule.
+
+---
+
+## 🪪 License
+
+This project is licensed under **GNU GPL v3.0**.
+
+It contains modified Snapcast components from:  
+https://github.com/CarlosDerSeher/snapclient
+
+Original authors’ work is preserved.  
+Modifications and additions by **BakersHub**.
+
+This software is provided **without warranty**.  
+See the `LICENSE` file for details.
+
+---
+
+## 🙌 Credits & Thanks
+
+Special thanks to:
+- **@Luar123**
+- **@Aximut**
+
+Bluetooth functionality is based on work by **@Aximut**, with further fixes and improvements by **BakersHub**.
+
+Bluetooth is still an area of active development. While no major issues have been observed since recent fixes, testing and detailed issue reports are very welcome.
