@@ -97,7 +97,7 @@ This diagram shows how audio flows from Home Assistant / Snapcast into the ESP32
 
 For most users, the easiest path is flashing the **prebuilt merged firmware image**:
 
-- Firmware: `SnapClient-BT-LED-OLEDv1.x.bin`
+- Firmware: `WROVER.bin`
 - Tool: **ESPHome Web Flasher** or **ESPHome Flasher**
 - Board: ESP32-WROVER (or compatible)
 
@@ -119,7 +119,7 @@ It covers:
   - Points to: https://github.com/BakersHub/snapclient  
     (branch: `Snapclient-BT-LED-OLED`)
 - Prebuilt firmware binary:
-  - `SnapClient-BT-LED-OLEDv1.x.bin`
+  - `WROVER.bin`
 
 All GPL-3.0–licensed source code used to build distributed binaries is available in this repository or its linked submodule.
 
