@@ -53,7 +53,7 @@ Built to be **easy to flash, easy to configure, and flexible to extend**.
 ### LEDs (optional)
 - WS2812 / SK6812 addressable RGB LEDs
 
-📌 **GPIO mappings are documented** — see [`GPIO_MAP.md`](GPIO_MAP.md)
+📌 **GPIO mappings are documented** — see [`WROVER_GPIO_MAP.md`](WROVER_GPIO_MAP.md)
 
 ---
 
