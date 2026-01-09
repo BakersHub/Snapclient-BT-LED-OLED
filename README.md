@@ -36,6 +36,16 @@ Built to be **easy to flash, easy to configure, and flexible to extend**.
 
 ---
 
+## 🧭 System Overview
+
+<img src="Install%20Guide%20Screenshots/FlowDiagram.png" alt="System Flow Diagram" width="60%">
+
+This diagram shows how audio flows from Home Assistant / Snapcast into the ESP32, then out to the DAC, speakers, OLED, and sound-reactive LEDs.
+
+<img src="Install%20Guide%20Screenshots/WiringDiagram.png" alt="System Flow Diagram" width="60%">
+
+---
+
 ## 🧩 Supported Hardware
 
 ### ESP32 boards
@@ -54,16 +64,6 @@ Built to be **easy to flash, easy to configure, and flexible to extend**.
 - WS2812 / SK6812 addressable RGB LEDs
 
 📌 **GPIO mappings are documented** — see [`WROVER_GPIO_MAP.md`](WROVER_GPIO_MAP.md)
-
----
-
-## 🧭 System Overview
-
-<img src="Install%20Guide%20Screenshots/FlowDiagram.png" alt="System Flow Diagram" width="60%">
-
-This diagram shows how audio flows from Home Assistant / Snapcast into the ESP32, then out to the DAC, speakers, OLED, and sound-reactive LEDs.
-
-<img src="Install%20Guide%20Screenshots/WiringDiagram.png" alt="System Flow Diagram" width="60%">
 
 ---
 
