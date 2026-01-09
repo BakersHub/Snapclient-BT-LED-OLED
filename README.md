@@ -38,7 +38,7 @@ Built to be **easy to flash, easy to configure, and flexible to extend**.
 
 ## 🧭 System Overview
 
-<img src="Install%20Guide%20Screenshots/FlowDiagram.png" alt="System Flow Diagram" width="60%">
+<img src="Install%20Guide%20Screenshots/FlowDiagram.png" alt="System Flow Diagram" width="90%">
 
 This diagram shows how audio flows from Home Assistant / Snapcast into the ESP32, then out to the DAC, speakers, OLED, and sound-reactive LEDs.
 
