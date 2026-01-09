@@ -101,7 +101,7 @@ For most users, the easiest path is flashing the **prebuilt merged firmware imag
 - Tool: **ESPHome Web Flasher** or **ESPHome Flasher**
 - Board: ESP32-WROVER (or compatible)
 
-👉 Follow the step-by-step guide here:  
+👉 Follow the step by step process in the screenshots above or the step-by-step guide here:  
 **[`FLASHING_QUICKSTART.md`](FLASHING_QUICKSTART.md)**
 
 It covers:

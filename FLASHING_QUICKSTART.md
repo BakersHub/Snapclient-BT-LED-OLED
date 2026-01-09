@@ -7,14 +7,14 @@ These are the simplest steps to get the prebuilt firmware running on an ESP32‑
 ## 1. Flash the prebuilt firmware
 
 - Board: **ESP32‑WROVER** (or compatible devkit).
-- Firmware: **SnapClient-BT-LED-OLED.bin**.
+- Firmware: **WROVER.bin**.
 - Flash tool: any ESP32 flasher, for example **ESPHome Flasher** or the **ESPHome Web Flasher**.
 
 Steps:
 
 1. Connect the WROVER board to your PC via USB.
 2. Open your ESPHome flasher tool and select the correct serial port.
-3. Choose the `SnapClient-BT-LED-OLEDv1.x.bin` file.
+3. Choose the `WROVER.bin` file.
 4. Start the flash and wait until it finishes successfully.
 
 The board will reboot automatically after flashing.
@@ -64,7 +64,9 @@ On the config/setup page:
    - **Snapclient / Speaker name** (how this device should appear in Snapserver).
 3. Press **Save and Restart**.
 
-These fields (Wi‑Fi SSID, password, Snapserver host, and speaker name) are the minimum needed for a working Snapclient connection.
+These fields (Wi‑Fi SSID, password, Snapserver host, and speaker name) are the minimum needed for a working Snapclient connection. You can finish the rest of the config by connecting to the device via its IP address. Exampple "192.168.0.68"
+you can find the IP address of each player in many ways, my faveroute way is just to use the snapcast app ive made and use the config access button which redirects to each players config.
+See **[`Android App Screenshot`](Install%20Guide%20Screenshots/13.png)**
 
 After reboot:
 
