@@ -69,24 +69,40 @@ This diagram shows how audio flows from Home Assistant / Snapcast into the ESP32
 
 ## 📸 Screenshots
 
+<img src="Install%20Guide%20Screenshots/1.PNG" width="50%">
+
 <details>
 <summary>Click to expand</summary>
 
-<img src="Install%20Guide%20Screenshots/1.PNG" width="50%">
+
 <img src="Install%20Guide%20Screenshots/2.PNG" width="50%">
+
 <img src="Install%20Guide%20Screenshots/3.png" width="50%">
+
 <img src="Install%20Guide%20Screenshots/4.PNG" width="50%">
+
 <img src="Install%20Guide%20Screenshots/5.PNG" width="50%">
+
 <img src="Install%20Guide%20Screenshots/6.PNG" width="50%">
+
 <img src="Install%20Guide%20Screenshots/7.PNG" width="50%">
+
 <img src="Install%20Guide%20Screenshots/8.png" width="50%">
+
 <img src="Install%20Guide%20Screenshots/9.png" width="50%">
+
 <img src="Install%20Guide%20Screenshots/10.png" width="50%">
+
 <img src="Install%20Guide%20Screenshots/11.png" width="50%">
+
 <img src="Install%20Guide%20Screenshots/12.png" width="50%">
+
 <img src="Install%20Guide%20Screenshots/13.png" width="50%">
+
 <img src="Install%20Guide%20Screenshots/14.png" width="50%">
+
 <img src="Install%20Guide%20Screenshots/15.png" width="50%">
+
 <img src="Install%20Guide%20Screenshots/16.png" width="50%">
 
 </details>
