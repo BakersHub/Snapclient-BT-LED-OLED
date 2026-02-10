@@ -159,8 +159,13 @@ See the `LICENSE` file for details.
 ## 🙌 Credits & Thanks
 
 Special thanks to:
+
 - **@Luar123**
 - **@Aximut**
+- **@badaix**
+- **@bridadan**
+- **@jorgenkraghjakobsen**
+- **@CarlosDerSeher**
 
 Bluetooth functionality is based on work by **@Aximut**, with further fixes and improvements by **BakersHub**.
 
