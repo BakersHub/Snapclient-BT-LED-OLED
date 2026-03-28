@@ -50,8 +50,8 @@ This diagram shows how audio flows from Home Assistant / Snapcast into the ESP32
 
 ### ESP32 boards
 - ESP32-WROVER (4MB)
-- ESP32-S3 Dev (16MB)
-- ESP32-S3 Zero (2MB)
+- ESP32-S3 Dev (16MB) NOTE:USES DIFFERENT DEFAULT GPIOS AS SHOWN IN WIRING DIAGRAM
+- ESP32-S3 Zero (2MB) NOTE:USES DIFFERENT DEFAULT GPIOS AS SHOWN IN WIRING DIAGRAM
 
 ### Audio DAC (required)
 - **PCM5102A**
